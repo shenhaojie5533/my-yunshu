@@ -1,0 +1,33 @@
+
+.allbooks .clectlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding:  0 14rpx;
+}
+.clectlist .onebook{
+  position: relative;
+  font-size: 16px;
+  width: 348rpx;
+  color: #555;
+  text-align: center;
+  margin: 30rpx 0 18rpx 12rpx;
+}
+.onebook img{
+  height: 260rpx;
+  width: 220rpx;
+  box-shadow:0 0 4px 3px rgba(0,0,0,.6) ;
+}
+.onebook .booktitle{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1;
+}
+.clectlist .onebook icon{
+  font-weight: bold;
+  position: absolute;
+  z-index: 998;
+  top: -30rpx;
+  right: 30rpx;
+}

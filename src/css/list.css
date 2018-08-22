@@ -1,0 +1,8 @@
+.listcontent{
+  padding: 0 50rpx;
+}
+.listcontent .title {
+  font-size: 14px;
+  line-height: 30px;
+  border-bottom: 1rpx solid #ccc;
+}

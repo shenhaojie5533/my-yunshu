@@ -1,0 +1,36 @@
+@import "./iconfont.css";
+
+.logcontent .shuicon{
+  margin-top: 40%;
+  text-align: center;
+  margin-bottom: 50rpx;
+}
+.shuicon .shuoming{
+  text-align: center;
+  color: #999;
+  font-size: 16px;
+}
+
+.logcontent .shuicon span{
+  font-size: 80px;
+  margin: 0 auto;
+  color:#409eff;
+}
+.logbtn {
+  align-items: center;
+  height: 80rpx;
+}
+.logbtn button{
+  margin: 0 auto;
+  background: #409eff;
+  color: #fff;
+  font-size: 16px;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 500rpx;
+  border-radius: 20px;
+}
+.logbtn button:active{
+  color: #fff;
+  background: #9E9E9E;
+}

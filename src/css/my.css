@@ -1,0 +1,63 @@
+@import "./iconfont.css";
+
+.bluebg{
+  background-color: #409eff;
+}
+.bluebg .usermsg{
+display: flex;
+}
+.usermsg .icon{
+  margin: 30rpx 30rpx;
+  border-radius: 50%;
+  width: 130rpx;
+  height: 130rpx;
+}
+.usermsg .icon img{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+.usermsg .nametext{
+color: #fff;
+  margin: 40rpx 0;
+}
+.usermsg .nametext .name{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 30rpx;
+}
+.usermsg .nametext .logintext{
+  font-size: 12px;
+}
+
+.readinf{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40rpx;
+}
+.readinf .myread{
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.wtbg .shuicon{
+  margin-top: 200rpx;
+  text-align: center;
+}
+.shuicon .shuoming{
+  margin-top: 30rpx;
+  text-align: center;
+  color:#409eff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #409eff;
+}
+
+.wtbg .shuicon span{
+  font-size: 80px;
+  margin: 100rpx auto;
+  color:#409eff;
+}

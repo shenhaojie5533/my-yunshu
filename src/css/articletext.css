@@ -1,0 +1,63 @@
+@import "./iconfont.css";
+
+.textcontent .text{
+  padding: 0 30rpx;
+}
+.textcontent .text .title{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+}
+
+.tabbar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100rpx;
+  width: 100%;
+  z-index: 900;
+  display: flex;
+  background-color: #fafbfe;
+}
+.tabbar .list{
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  line-height: 100rpx;
+}
+.tabbar .list .iconfont{
+  font-size: 28px;
+  color: #666;
+}
+.textcontent .textlist .littlelist{
+  margin: 0 40rpx;
+  color: #444;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1rpx solid #ccc;
+}
+.textcontent .textlist{
+  transition: transform .5s ease;
+  transform:translateX(-600rpx);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  width: 600rpx;
+  height: 100%;
+  background-color: #fff;
+}
+.textcontent .showlist{
+  z-index: 998;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.3);
+}
+

@@ -1,0 +1,74 @@
+
+.readcontent{
+  padding: 20rpx;
+}
+.afterread .list{
+  width: 100%;
+  margin-bottom: 20rpx;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+.afterread .list .bookimg{
+  margin-right: 30rpx;
+  width: 220rpx;
+  height: 270rpx;
+}
+.afterread .list .bookimg img{
+  display: block;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.5);
+  width: 220rpx;
+  height: 270rpx;
+}
+.afterread  .list .bookdetail{
+  position: relative;
+  width: 100%;
+  padding-right: 10rpx;
+}
+.afterread .bookdetail .title{
+  padding: 10rpx 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.bookdetail .jindu{
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+  margin-top: 10rpx;
+}
+.bookdetail .jindu .tiao{
+  margin: 8rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+.bookdetail .jindu .tiao span{
+  color: #409eff;
+}
+.bookdetail .jindu .progress{
+  width: 70%;
+}
+.bookdetail .jindu .time{
+  display: flex;
+  justify-content: space-between;
+}
+.bookdetail .foot{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.bookdetail .foot button{
+  text-align: center;
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 12px;
+  color: #666;
+  line-height: 60rpx;
+}
+.afterread .nomore{
+  text-align: center;
+  margin-top: 50rpx;
+  color: #ccc;
+  font-size: 12px;
+}

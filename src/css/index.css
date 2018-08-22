@@ -1,0 +1,76 @@
+
+
+.container {
+  padding: 0 20rpx;
+}
+
+.swiperbox{
+  height: 300rpx;
+}
+
+.swiperbox img{
+  width: 710rpx;
+  height: 300rpx;
+  background: #000;
+}
+
+.alllist  .classfy{
+  margin: 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15rpx;
+  border-left: 3rpx solid #000;
+}
+.alllist  .classfy .listname{
+  font-size: 14px;
+  font-weight: 700;
+}
+.alllist .classfy .more{
+  font-size: 12px;
+  color: #666;
+}
+
+.list{
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.list .bookimg{
+  margin-right: 30rpx;
+  width: 220rpx;
+  height: 270rpx;
+}
+.list .bookimg img{
+  display: block;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.5);
+  width: 220rpx;
+  height: 270rpx;
+}
+.bookdetail{
+  position: relative;
+}
+.bookdetail .title{
+  padding: 10rpx 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.bookdetail .text{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #555;
+  font-weight: 400;
+}
+.bookdetail .foot{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #666;
+}
